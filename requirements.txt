@@ -1,0 +1,23 @@
+# AI Dental X-ray Segmentation - Project Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Deep Learning Framework
+torch>=1.9.0
+torchvision>=0.10.0
+
+# Segmentation Models
+segmentation-models-pytorch>=0.3.0
+
+# Image Processing & Augmentation
+opencv-python>=4.5.0
+albumentations>=1.0.0
+Pillow>=8.0.0
+
+# Web Interface
+streamlit>=1.0.0
+
+# Numerical Computing
+numpy>=1.20.0
+
+# Optional: GPU Support (uncomment if needed)
+# torch-cuda-toolkit>=11.0  # For NVIDIA GPU support
